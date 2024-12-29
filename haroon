@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wajid Chib | Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+        .home {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+        }
+        .home img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Wajid Chib's Personal Website</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <h2>Hello, I'm Wajid Chib!</h2>
+        <p>Welcome to my personal space where I share my journey, work, and thoughts.</p>
+        <img src="https://via.placeholder.com/150" alt="Wajid Chib">
+    </section>
+
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>I'm a B.Tech Civil Engineering student with a passion for learning, exploring nature, and achieving my dreams. I love spending time with friends, exploring new ideas, and working toward a better future.</p>
+    </section>
+
+    <section class="section" id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are some of my projects and achievements:</p>
+        <ul>
+            <li>Designed a sustainable building as part of my coursework.</li>
+            <li>Participated in inter-college technical competitions.</li>
+            <li>Volunteered for community development projects.</li>
+        </ul>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations, projects, or just to say hi!</p>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wajid Chib. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
